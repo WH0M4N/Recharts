@@ -1,11 +1,11 @@
 import React from "react";
-import Chart from "./components/Chart";
-import Test from "./components/Test";
+import Chart from "./components/BarChart";
+import LogsTableCharts from "./components/PieChart";
 
 const App = () => {
   return (
     <div>
-      <Chart />
+      <LogsTableCharts />
     </div>
   );
 };
