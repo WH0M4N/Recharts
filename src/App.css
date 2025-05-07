@@ -1,0 +1,34 @@
+
+@font-face {
+  font-family: 'DanaFanum';
+  src: url('./fonts/dana-fanum-regular.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+html[lang="fa"] .App {
+  font-family: 'DanaFanum';
+}
+
+html[lang="en"] .App {
+  font-family: 'Inter';
+}
+
+.mainApp {
+  background-color: rgb(77, 77, 77);
+  font-family: '';
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(77, 77, 77);
+  
+}
+
+.toggle {
+  align-self: flex-start;
+  padding: 10px;
+}
